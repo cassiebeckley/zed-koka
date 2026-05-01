@@ -1,0 +1,15 @@
+id = "koka"
+name = "Koka"
+version = "0.0.1"
+schema_version = 1
+authors = ["Cassandra Beckley <beckl.ds@gmail.com>"]
+description = "Koka support."
+repository = "https://github.com/cassiebeckley/zed-koka"
+
+[grammars.koka]
+repository = "https://github.com/koka-community/tree-sitter-koka"
+rev = "07b1ce29a06656b552f7f198e572499062ccfffe"
+
+[language_servers.koka]
+name = "Koka Language Server"
+languages = ["Koka"]

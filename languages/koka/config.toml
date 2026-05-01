@@ -1,0 +1,6 @@
+name = "Koka"
+grammar = "koka"
+path_suffixes = ["kk"]
+line_comments = ["// "]
+tab_size = 2
+hard_tabs = false
